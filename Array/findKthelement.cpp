@@ -2,6 +2,8 @@
 #include <algorithm>
 using namespace std;
 
+//finding min and max
+
 int findkMax(int arr[], int size)
 {
     return 0;
