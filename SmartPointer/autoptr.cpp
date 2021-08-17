@@ -2,10 +2,10 @@
 using namespace std;
 
 template <typename T>
-struct auto_ptr
+struct auto_ptr1
 {
-    auto_ptr(T *ptr = nullptr) : m_ptr(ptr) {}
-    ~auto_ptr() { delete m_ptr; }
+    auto_ptr1(T *ptr = nullptr) : m_ptr(ptr) {}
+    ~auto_ptr1() { delete m_ptr; }
 
     //overload operator * and -> operator
 
@@ -37,7 +37,7 @@ Resource::~Resource()
 
 int main()
 {
-    auto_ptr<Resource> res{new Resource()};
-    auto_ptr<Resource> res2{res};
+    auto_ptr1<Resource> res{new Resource()};
+    auto_ptr1<Resource> res2{res};
     return 0;
 }
