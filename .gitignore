@@ -4,3 +4,5 @@ Array/FindMaxAndMin.exe
 Array/FindMaxAndMin.ilk
 Array/FindMaxAndMin.pdb
 vc140.pdb
+*.ilk
+*.pdb

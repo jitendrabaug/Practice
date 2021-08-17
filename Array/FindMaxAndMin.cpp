@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//find max and min from the array
+
 int findMax(int arr[], int size)
 {
     int nMin = INT_MIN;
