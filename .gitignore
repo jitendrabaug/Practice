@@ -6,3 +6,6 @@ Array/FindMaxAndMin.pdb
 vc140.pdb
 *.ilk
 *.pdb
+*.dSYM
+*.plist
+
